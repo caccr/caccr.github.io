@@ -1,6 +1,6 @@
 # California Water Quality Consumer Confidence Reports
 
-This site is proudly built with [<i class="fab fa-r-project" style = "color: #2B76CC"></i>](https://www.r-project.org/) & [Jekyll](https://jekyllrb.com/) (theme by [jmcglone](https://github.com/jmcglone/jmcglone.github.io)), and hosted on [<i class="fab fa-github" style = "color: #6e5494"></i> Pages ](https://pages.github.com/).  
+This site is proudly built with [R](https://www.r-project.org/) & [Jekyll](https://jekyllrb.com/) (theme by [jmcglone](https://github.com/jmcglone/jmcglone.github.io)), and hosted on [Github Pages](https://pages.github.com/).  
 
 © 2019 by [Rich Pauloo](https://richpauloo.github.io).  
 
