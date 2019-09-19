@@ -13,34 +13,49 @@
 
 .topnav {
   overflow: hidden;
-  background-color: #3b84df;
+  background-color: #414141;
+  position: fixed;
+  width: 100%;
+  top: 10;
+  z-index: 9999999999999999;
 }
 
 .topnav a {
   float: left;
-  color: #f2f2f2;
-  text-align: center;
+  color: #ffffff;
+  text-align: left;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  z-index: 9999999999999999;
+  width: 100%;
 }
 
 .topnav a:hover {
-  background-color: #1e4270;
-  color: white;
+  background-color: #414141;
+  color: #ffffff;
+  z-index: 9999999999999999;
 }
 
 .topnav a.active {
-  background-color: #3b84df;
-  color: white;
+  background-color: #ffffff;
+  color: #414141;
+  z-index: 9999999999999999;
 }
 </style>
 </head>
 <body>
 
+
 <div class="topnav">
   <a href="https://caccr.github.io">California Consumer Confidence Reports</a>
 </div>
+
+<br><br><br>
+
+
+
+
 
 
 
@@ -7987,11 +8002,16 @@ div.tocify {
 
 <h1 class="title toc-ignore">SIERRAVILLE P.U.D. Consumer Confidence Report</h1>
 <h3 class="subtitle">PSID: 4600018 | SIERRAVILLE, SIERRA CO.</h3>
-<h4 class="date">For the period from 2017-01-01 to 2019-09-12.</h4>
+<h4 class="date">For the period from 2017-01-01 to 2019-09-15.</h4>
 
 </div>
 
 
+<style>
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    background-color: #414141;
+}
+</style>
 <hr />
 <div id="what-does-this-report-mean" class="section level2">
 <h2>What does this report mean?</h2>
@@ -8001,16 +8021,16 @@ div.tocify {
 <p>这份报告含有关于您的饮用水的重要讯息。请用以下地址和电话联系 SIERRAVILLE P.U.D. 以获得中文的帮助: <a href="#contact-link">NA</a>.</p>
 <hr />
 </div>
-<div id="this-water-system-is-in-compliance" class="section level2">
-<h2><svg style="height:0.8em;top:.04em;position:relative;fill:green;" viewBox="0 0 512 512"><path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"></path></svg> This water system is <strong><font color="green">IN COMPLIANCE</font></strong></h2>
+<div id="status-in-compliance" class="section level2">
+<h2><svg style="height:0.8em;top:.04em;position:relative;fill:green;" viewBox="0 0 512 512"><path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"></path></svg> Status: <strong><font color="green">IN COMPLIANCE</font></strong></h2>
 <p><strong>15</strong> water quality indicators were tested for and may have been detected, though they pose no serious human health hazard (MCL = 0). They are reported in the <a href="#table">table below</a>.</p>
 <hr />
 </div>
 <div id="table" class="section level2">
 <h2>Explore/download data</h2>
 <p>Explore your water quality data in the interactive table below, or download as an Excel or CSV file.</p>
-<div id="htmlwidget-8884db3b372384414bf8" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-8884db3b372384414bf8">{"x":{"filter":"none","extensions":["Buttons"],"data":[["1","2","3","4","5","6"],["1,2,3-TRICHLOROPROPANE","HALOACETIC ACIDS (5) (HAA5)","MERCURY","NITRATE (AS N)","PERCHLORATE","TOTAL TRIHALOMETHANES"],[0,0,0,0,4,0],[0.005,60,2,10,6,80],["UG/L","UG/L","UG/L","MG/L","UG/L","UG/L"],["&lt;","V","V","V","&lt;","V"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>CHEMICAL<\/th>\n      <th>SAMPLE_MEAN<\/th>\n      <th>MCL<\/th>\n      <th>UNIT<\/th>\n      <th>XMOD<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"dom":"Bfrtip","buttons":["excel","csv"],"pageLength":25,"columnDefs":[{"className":"dt-right","targets":[2,3]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-b197c8168e510bafb148" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-b197c8168e510bafb148">{"x":{"filter":"none","extensions":["Buttons"],"data":[["1","2","3","4","5","6"],["1,2,3-TRICHLOROPROPANE","HALOACETIC ACIDS (5) (HAA5)","MERCURY","NITRATE (AS N)","PERCHLORATE","TOTAL TRIHALOMETHANES"],[0,0,0,0,4,0],[0.005,60,2,10,6,80],["UG/L","UG/L","UG/L","MG/L","UG/L","UG/L"],["&lt;","V","V","V","&lt;","V"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>CHEMICAL<\/th>\n      <th>SAMPLE_MEAN<\/th>\n      <th>MCL<\/th>\n      <th>UNIT<\/th>\n      <th>XMOD<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"dom":"Bfrtip","buttons":["excel","csv"],"pageLength":25,"columnDefs":[{"className":"dt-right","targets":[2,3]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 <hr />
 <!--  -->
 <!-- **Although tests were made, no chemicals were detected in your water system.**<br><br>The following chemicals were tested for: 1,2,3-TRICHLOROPROPANE, HALOACETIC ACIDS (5) (HAA5), MERCURY, NITRATE (AS N), PERCHLORATE, TOTAL TRIHALOMETHANES. -->
@@ -8040,28 +8060,58 @@ div.tocify {
 <blockquote>
 <p>Health Agency: DISTRICT 02 - LASSEN<br><svg style="height:0.8em;top:.04em;position:relative;fill:red;" viewBox="0 0 384 512"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0z"></path></svg> <b><a href="http://maps.google.com/maps?q=364 Knollcrest Dr. Suite 101 REDDING, CA 96002" target="_blank">364 Knollcrest Dr. Suite 101 REDDING, CA 96002</a></b><br> <svg style="height:0.8em;top:.04em;position:relative;fill:blue;" viewBox="0 0 512 512"><path d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z"></path></svg> <a href="tel:1-530-224-4800" target="_blank">530-224-4800</a><br> <svg style="height:0.8em;top:.04em;position:relative;fill:green;" viewBox="0 0 512 512"><path d="M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 493.3-6.8 476 3.2z"></path></svg> <a href="mailto:DWPRedding@waterboards.ca.gov" target="_blank">DWPRedding@waterboards.ca.gov</a></p>
 </blockquote>
-<div id="htmlwidget-7c56bb739eebe952853c" style="width:100%;height:300px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-7c56bb739eebe952853c">{"x":{"options":{"minZoom":1,"maxZoom":100,"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}},"preferCanvas":false,"bounceAtZoomLimits":false,"maxBounds":[[[-90,-370]],[[90,370]]]},"calls":[{"method":"addProviderTiles","args":["CartoDB.Positron",1,"CartoDB.Positron",{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addProviderTiles","args":["CartoDB.DarkMatter",2,"CartoDB.DarkMatter",{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addProviderTiles","args":["OpenStreetMap",3,"OpenStreetMap",{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addProviderTiles","args":["Esri.WorldImagery",4,"Esri.WorldImagery",{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addProviderTiles","args":["OpenTopoMap",5,"OpenTopoMap",{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"createMapPane","args":["point",440]},{"method":"addCircleMarkers","args":[39.5749729448651,-120.33456905203,6,null,"SIERRAVILLE P.U.D.",{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}},"pane":"point","stroke":true,"color":"#333333","weight":2,"opacity":0.9,"fill":true,"fillColor":"#6666FF","fillOpacity":0.6},null,null,"<html><head><link rel=\"stylesheet\" type=\"text/css\" href=\"lib/popup/popup.css\"><\/head><body><div class=\"scrollableContainer\"><table class=\"popup scrollable\" id=\"popup\"><tr class='coord'><td><\/td><td><b>Feature ID<\/b><\/td><td align='right'>1&emsp;<\/td><\/tr><tr class='alt'><td>1<\/td><td><b>WATER_SYSTEM_NUMBER&emsp;<\/b><\/td><td align='right'>4600018&emsp;<\/td><\/tr><tr><td>2<\/td><td><b>WATER_SYSTEM_NAME&emsp;<\/b><\/td><td align='right'>SIERRAVILLE P.U.D.&emsp;<\/td><\/tr><tr class='alt'><td>3<\/td><td><b>REGULATING_AGENCY&emsp;<\/b><\/td><td align='right'>DISTRICT 02 - LASSEN&emsp;<\/td><\/tr><tr><td>4<\/td><td><b>COUNTY&emsp;<\/b><\/td><td align='right'>SIERRA&emsp;<\/td><\/tr><tr class='alt'><td>5<\/td><td><b>POPULATION&emsp;<\/b><\/td><td align='right'>200&emsp;<\/td><\/tr><tr><td>6<\/td><td><b>CLASSIFICATION&emsp;<\/b><\/td><td align='right'>COMMUNITY&emsp;<\/td><\/tr><tr class='alt'><td>7<\/td><td><b>CITY&emsp;<\/b><\/td><td align='right'>SIERRAVILLE&emsp;<\/td><\/tr><tr><td>8<\/td><td><b>ZIPCODE&emsp;<\/b><\/td><td align='right'>96126&emsp;<\/td><\/tr><tr class='alt'><td>9<\/td><td><b>GIS_STATUS&emsp;<\/b><\/td><td align='right'>IN COMPLIANCE&emsp;<\/td><\/tr><tr><td>10<\/td><td><b>SERVICE_CONNECTIONS&emsp;<\/b><\/td><td align='right'>111&emsp;<\/td><\/tr><tr class='alt'><td>11<\/td><td><b>VIOLATION_DETAILS&emsp;<\/b><\/td><td align='right'>NO VIOLATIONS REPORTED SINCE 1/1/2012&emsp;<\/td><\/tr><tr><td>12<\/td><td><b>geometry&emsp;<\/b><\/td><td align='right'>sfc_POINT&emsp;<\/td><\/tr><\/table><\/div><\/body><\/html>",{"maxWidth":800,"minWidth":50,"autoPan":true,"keepInView":false,"closeButton":true,"closeOnClick":true,"className":""},"1",{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addScaleBar","args":[{"maxWidth":100,"metric":true,"imperial":true,"updateWhenIdle":true,"position":"bottomleft"}]},{"method":"addHomeButton","args":[-120.33456905203,39.5749729448651,-120.33456905203,39.5749729448651,"Zoom to SIERRAVILLE P.U.D.","<strong> SIERRAVILLE P.U.D. <\/strong>","bottomright"]},{"method":"addLayersControl","args":[["CartoDB.Positron","CartoDB.DarkMatter","OpenStreetMap","Esri.WorldImagery","OpenTopoMap"],"SIERRAVILLE P.U.D.",{"collapsed":true,"autoZIndex":true,"position":"topleft"}]}],"limits":{"lat":[39.5749729448651,39.5749729448651],"lng":[-120.33456905203,-120.33456905203]}},"evals":[],"jsHooks":{"render":[{"code":"function(el, x, data) {\n  return (\n      function(el, x, data) {\n      // get the leaflet map\n      var map = this; //HTMLWidgets.find('#' + el.id);\n      // we need a new div element because we have to handle\n      // the mouseover output separately\n      // debugger;\n      function addElement () {\n      // generate new div Element\n      var newDiv = $(document.createElement('div'));\n      // append at end of leaflet htmlwidget container\n      $(el).append(newDiv);\n      //provide ID and style\n      newDiv.addClass('lnlt');\n      newDiv.css({\n      'position': 'relative',\n      'bottomleft':  '0px',\n      'background-color': 'rgba(255, 255, 255, 0.7)',\n      'box-shadow': '0 0 2px #bbb',\n      'background-clip': 'padding-box',\n      'margin': '0',\n      'padding-left': '5px',\n      'color': '#333',\n      'font': '9px/1.5 \"Helvetica Neue\", Arial, Helvetica, sans-serif',\n      'z-index': '700',\n      });\n      return newDiv;\n      }\n\n\n      // check for already existing lnlt class to not duplicate\n      var lnlt = $(el).find('.lnlt');\n\n      if(!lnlt.length) {\n      lnlt = addElement();\n\n      // grab the special div we generated in the beginning\n      // and put the mousmove output there\n\n      map.on('mousemove', function (e) {\n      if (e.originalEvent.ctrlKey) {\n      if (document.querySelector('.lnlt') === null) lnlt = addElement();\n      lnlt.text(\n                           ' lon: ' + (e.latlng.lng).toFixed(5) +\n                           ' | lat: ' + (e.latlng.lat).toFixed(5) +\n                           ' | zoom: ' + map.getZoom() +\n                           ' | x: ' + L.CRS.EPSG3857.project(e.latlng).x.toFixed(0) +\n                           ' | y: ' + L.CRS.EPSG3857.project(e.latlng).y.toFixed(0) +\n                           ' | epsg: 3857 ' +\n                           ' | proj4: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs ');\n      } else {\n      if (document.querySelector('.lnlt') === null) lnlt = addElement();\n      lnlt.text(\n                      ' lon: ' + (e.latlng.lng).toFixed(5) +\n                      ' | lat: ' + (e.latlng.lat).toFixed(5) +\n                      ' | zoom: ' + map.getZoom() + ' ');\n      }\n      });\n\n      // remove the lnlt div when mouse leaves map\n      map.on('mouseout', function (e) {\n      var strip = document.querySelector('.lnlt');\n      strip.remove();\n      });\n\n      };\n\n      //$(el).keypress(67, function(e) {\n      map.on('preclick', function(e) {\n      if (e.originalEvent.ctrlKey) {\n      if (document.querySelector('.lnlt') === null) lnlt = addElement();\n      lnlt.text(\n                      ' lon: ' + (e.latlng.lng).toFixed(5) +\n                      ' | lat: ' + (e.latlng.lat).toFixed(5) +\n                      ' | zoom: ' + map.getZoom() + ' ');\n      var txt = document.querySelector('.lnlt').textContent;\n      console.log(txt);\n      //txt.innerText.focus();\n      //txt.select();\n      setClipboardText('\"' + txt + '\"');\n      }\n      });\n\n      //map.on('click', function (e) {\n      //  var txt = document.querySelector('.lnlt').textContent;\n      //  console.log(txt);\n      //  //txt.innerText.focus();\n      //  //txt.select();\n      //  setClipboardText(txt);\n      //});\n\n      function setClipboardText(text){\n      var id = 'mycustom-clipboard-textarea-hidden-id';\n      var existsTextarea = document.getElementById(id);\n\n      if(!existsTextarea){\n      console.log('Creating textarea');\n      var textarea = document.createElement('textarea');\n      textarea.id = id;\n      // Place in top-left corner of screen regardless of scroll position.\n      textarea.style.position = 'fixed';\n      textarea.style.top = 0;\n      textarea.style.left = 0;\n\n      // Ensure it has a small width and height. Setting to 1px / 1em\n      // doesn't work as this gives a negative w/h on some browsers.\n      textarea.style.width = '1px';\n      textarea.style.height = '1px';\n\n      // We don't need padding, reducing the size if it does flash render.\n      textarea.style.padding = 0;\n\n      // Clean up any borders.\n      textarea.style.border = 'none';\n      textarea.style.outline = 'none';\n      textarea.style.boxShadow = 'none';\n\n      // Avoid flash of white box if rendered for any reason.\n      textarea.style.background = 'transparent';\n      document.querySelector('body').appendChild(textarea);\n      console.log('The textarea now exists :)');\n      existsTextarea = document.getElementById(id);\n      }else{\n      console.log('The textarea already exists :3')\n      }\n\n      existsTextarea.value = text;\n      existsTextarea.select();\n\n      try {\n      var status = document.execCommand('copy');\n      if(!status){\n      console.error('Cannot copy text');\n      }else{\n      console.log('The text is now on the clipboard');\n      }\n      } catch (err) {\n      console.log('Unable to copy.');\n      }\n      }\n\n\n      }\n      ).call(this.getMap(), el, x, data);\n}","data":null}]}}</script>
+<div id="htmlwidget-6d80a3c645d643b2ec3c" style="width:100%;height:300px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-6d80a3c645d643b2ec3c">{"x":{"options":{"minZoom":1,"maxZoom":100,"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}},"preferCanvas":false,"bounceAtZoomLimits":false,"maxBounds":[[[-90,-370]],[[90,370]]]},"calls":[{"method":"addProviderTiles","args":["CartoDB.Positron",1,"CartoDB.Positron",{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addProviderTiles","args":["CartoDB.DarkMatter",2,"CartoDB.DarkMatter",{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addProviderTiles","args":["OpenStreetMap",3,"OpenStreetMap",{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addProviderTiles","args":["Esri.WorldImagery",4,"Esri.WorldImagery",{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addProviderTiles","args":["OpenTopoMap",5,"OpenTopoMap",{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"createMapPane","args":["point",440]},{"method":"addCircleMarkers","args":[39.5749729448651,-120.33456905203,6,null,"SIERRAVILLE P.U.D.",{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}},"pane":"point","stroke":true,"color":"#333333","weight":2,"opacity":0.9,"fill":true,"fillColor":"#6666FF","fillOpacity":0.6},null,null,"<html><head><link rel=\"stylesheet\" type=\"text/css\" href=\"lib/popup/popup.css\"><\/head><body><div class=\"scrollableContainer\"><table class=\"popup scrollable\" id=\"popup\"><tr class='coord'><td><\/td><td><b>Feature ID<\/b><\/td><td align='right'>1&emsp;<\/td><\/tr><tr class='alt'><td>1<\/td><td><b>WATER_SYSTEM_NUMBER&emsp;<\/b><\/td><td align='right'>4600018&emsp;<\/td><\/tr><tr><td>2<\/td><td><b>WATER_SYSTEM_NAME&emsp;<\/b><\/td><td align='right'>SIERRAVILLE P.U.D.&emsp;<\/td><\/tr><tr class='alt'><td>3<\/td><td><b>REGULATING_AGENCY&emsp;<\/b><\/td><td align='right'>DISTRICT 02 - LASSEN&emsp;<\/td><\/tr><tr><td>4<\/td><td><b>COUNTY&emsp;<\/b><\/td><td align='right'>SIERRA&emsp;<\/td><\/tr><tr class='alt'><td>5<\/td><td><b>POPULATION&emsp;<\/b><\/td><td align='right'>200&emsp;<\/td><\/tr><tr><td>6<\/td><td><b>CLASSIFICATION&emsp;<\/b><\/td><td align='right'>COMMUNITY&emsp;<\/td><\/tr><tr class='alt'><td>7<\/td><td><b>CITY&emsp;<\/b><\/td><td align='right'>SIERRAVILLE&emsp;<\/td><\/tr><tr><td>8<\/td><td><b>ZIPCODE&emsp;<\/b><\/td><td align='right'>96126&emsp;<\/td><\/tr><tr class='alt'><td>9<\/td><td><b>GIS_STATUS&emsp;<\/b><\/td><td align='right'>IN COMPLIANCE&emsp;<\/td><\/tr><tr><td>10<\/td><td><b>SERVICE_CONNECTIONS&emsp;<\/b><\/td><td align='right'>111&emsp;<\/td><\/tr><tr class='alt'><td>11<\/td><td><b>VIOLATION_DETAILS&emsp;<\/b><\/td><td align='right'>NO VIOLATIONS REPORTED SINCE 1/1/2012&emsp;<\/td><\/tr><tr><td>12<\/td><td><b>geometry&emsp;<\/b><\/td><td align='right'>sfc_POINT&emsp;<\/td><\/tr><\/table><\/div><\/body><\/html>",{"maxWidth":800,"minWidth":50,"autoPan":true,"keepInView":false,"closeButton":true,"closeOnClick":true,"className":""},"1",{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addScaleBar","args":[{"maxWidth":100,"metric":true,"imperial":true,"updateWhenIdle":true,"position":"bottomleft"}]},{"method":"addHomeButton","args":[-120.33456905203,39.5749729448651,-120.33456905203,39.5749729448651,"Zoom to SIERRAVILLE P.U.D.","<strong> SIERRAVILLE P.U.D. <\/strong>","bottomright"]},{"method":"addLayersControl","args":[["CartoDB.Positron","CartoDB.DarkMatter","OpenStreetMap","Esri.WorldImagery","OpenTopoMap"],"SIERRAVILLE P.U.D.",{"collapsed":true,"autoZIndex":true,"position":"topleft"}]}],"limits":{"lat":[39.5749729448651,39.5749729448651],"lng":[-120.33456905203,-120.33456905203]}},"evals":[],"jsHooks":{"render":[{"code":"function(el, x, data) {\n  return (\n      function(el, x, data) {\n      // get the leaflet map\n      var map = this; //HTMLWidgets.find('#' + el.id);\n      // we need a new div element because we have to handle\n      // the mouseover output separately\n      // debugger;\n      function addElement () {\n      // generate new div Element\n      var newDiv = $(document.createElement('div'));\n      // append at end of leaflet htmlwidget container\n      $(el).append(newDiv);\n      //provide ID and style\n      newDiv.addClass('lnlt');\n      newDiv.css({\n      'position': 'relative',\n      'bottomleft':  '0px',\n      'background-color': 'rgba(255, 255, 255, 0.7)',\n      'box-shadow': '0 0 2px #bbb',\n      'background-clip': 'padding-box',\n      'margin': '0',\n      'padding-left': '5px',\n      'color': '#333',\n      'font': '9px/1.5 \"Helvetica Neue\", Arial, Helvetica, sans-serif',\n      'z-index': '700',\n      });\n      return newDiv;\n      }\n\n\n      // check for already existing lnlt class to not duplicate\n      var lnlt = $(el).find('.lnlt');\n\n      if(!lnlt.length) {\n      lnlt = addElement();\n\n      // grab the special div we generated in the beginning\n      // and put the mousmove output there\n\n      map.on('mousemove', function (e) {\n      if (e.originalEvent.ctrlKey) {\n      if (document.querySelector('.lnlt') === null) lnlt = addElement();\n      lnlt.text(\n                           ' lon: ' + (e.latlng.lng).toFixed(5) +\n                           ' | lat: ' + (e.latlng.lat).toFixed(5) +\n                           ' | zoom: ' + map.getZoom() +\n                           ' | x: ' + L.CRS.EPSG3857.project(e.latlng).x.toFixed(0) +\n                           ' | y: ' + L.CRS.EPSG3857.project(e.latlng).y.toFixed(0) +\n                           ' | epsg: 3857 ' +\n                           ' | proj4: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs ');\n      } else {\n      if (document.querySelector('.lnlt') === null) lnlt = addElement();\n      lnlt.text(\n                      ' lon: ' + (e.latlng.lng).toFixed(5) +\n                      ' | lat: ' + (e.latlng.lat).toFixed(5) +\n                      ' | zoom: ' + map.getZoom() + ' ');\n      }\n      });\n\n      // remove the lnlt div when mouse leaves map\n      map.on('mouseout', function (e) {\n      var strip = document.querySelector('.lnlt');\n      strip.remove();\n      });\n\n      };\n\n      //$(el).keypress(67, function(e) {\n      map.on('preclick', function(e) {\n      if (e.originalEvent.ctrlKey) {\n      if (document.querySelector('.lnlt') === null) lnlt = addElement();\n      lnlt.text(\n                      ' lon: ' + (e.latlng.lng).toFixed(5) +\n                      ' | lat: ' + (e.latlng.lat).toFixed(5) +\n                      ' | zoom: ' + map.getZoom() + ' ');\n      var txt = document.querySelector('.lnlt').textContent;\n      console.log(txt);\n      //txt.innerText.focus();\n      //txt.select();\n      setClipboardText('\"' + txt + '\"');\n      }\n      });\n\n      //map.on('click', function (e) {\n      //  var txt = document.querySelector('.lnlt').textContent;\n      //  console.log(txt);\n      //  //txt.innerText.focus();\n      //  //txt.select();\n      //  setClipboardText(txt);\n      //});\n\n      function setClipboardText(text){\n      var id = 'mycustom-clipboard-textarea-hidden-id';\n      var existsTextarea = document.getElementById(id);\n\n      if(!existsTextarea){\n      console.log('Creating textarea');\n      var textarea = document.createElement('textarea');\n      textarea.id = id;\n      // Place in top-left corner of screen regardless of scroll position.\n      textarea.style.position = 'fixed';\n      textarea.style.top = 0;\n      textarea.style.left = 0;\n\n      // Ensure it has a small width and height. Setting to 1px / 1em\n      // doesn't work as this gives a negative w/h on some browsers.\n      textarea.style.width = '1px';\n      textarea.style.height = '1px';\n\n      // We don't need padding, reducing the size if it does flash render.\n      textarea.style.padding = 0;\n\n      // Clean up any borders.\n      textarea.style.border = 'none';\n      textarea.style.outline = 'none';\n      textarea.style.boxShadow = 'none';\n\n      // Avoid flash of white box if rendered for any reason.\n      textarea.style.background = 'transparent';\n      document.querySelector('body').appendChild(textarea);\n      console.log('The textarea now exists :)');\n      existsTextarea = document.getElementById(id);\n      }else{\n      console.log('The textarea already exists :3')\n      }\n\n      existsTextarea.value = text;\n      existsTextarea.select();\n\n      try {\n      var status = document.execCommand('copy');\n      if(!status){\n      console.error('Cannot copy text');\n      }else{\n      console.log('The text is now on the clipboard');\n      }\n      } catch (err) {\n      console.log('Unable to copy.');\n      }\n      }\n\n\n      }\n      ).call(this.getMap(), el, x, data);\n}","data":null}]}}</script>
 <hr />
 </div>
 <div id="disclaimer" class="section level3">
 <h3>Disclaimer</h3>
-<p>This Consumer Confidence Report was automatically generated, and hence, the data herein may be incomplete or inaccurate. The authors claim no liability or responsibility for data quality, and this data product falls under the <a href="https://github.com/caccr/cawdc_2019/LICENSE">MIT License</a>. This data represents the average result of all post-treatment samples from the period from 2019-01-01 to 2019-09-12.</p>
-<p><strong>For questions about your local water quality, contact your water system.</strong></p>
+<p>This Consumer Confidence Report was automatically generated, and hence, the data herein may be incomplete or inaccurate. The authors claim no liability or responsibility for data quality, and this data product falls under the <a href="https://github.com/caccr/cawdc_2019/LICENSE">MIT License</a>. This data represents the average result of all post-treatment samples from the period from 2019-01-01 to 2019-09-15.</p>
+<p><strong>For questions about your local water quality, <a href="#contact-link">contact</a> your water system.</strong></p>
 <hr />
 </div>
 <div id="vio-link" class="section level3">
 <h3>FAQ</h3>
-<p>To see frequently asked question about this CCR, <a href="https://caccr.github.io/faq/">visit the FAQ</a>.</p>
-</div>
-</div>
+<p>To view frequently asked questions, <a href="https://caccr.github.io/faq/">visit the FAQ</a>.</p>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.fa {
+  padding: 10px;
+  font-size: 15px;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
 
 
+</style>
 
-</div>
-</div>
 
-</div>
+<hr>
+
+
+<!-- Add font awesome icons -->
+<a href = "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcaccr.github.io%2Fccrs%2F4600018.html" target = "_blank" class="fa fa-facebook"></a>
+<a href="https://twitter.com/intent/tweet?text=🚰+ Water+quality+in+SIERRAVILLE P.U.D., SIERRA CO. Status: IN COMPLIANCE. + https://caccr.github.io/ccrs/4600018.html" target = "_blank"  class="fa fa-twitter"></a>
+      
+<br> 
+<br>
 
 <script>
 
