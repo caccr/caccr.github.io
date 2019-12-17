@@ -1,4 +1,6 @@
-# California Water Quality Consumer Confidence Reports
+# California Water Quality 
+
+*Rich Pauloo, richpauloo@gmail.com, [website](http://richpauloo.com/)*
 
 [![](example.gif)](https://caccr.github.io)
 
