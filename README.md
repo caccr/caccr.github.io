@@ -1,4 +1,4 @@
-# California Water Quality 
+# California Water Quality Portal
 
 *Rich Pauloo, richpauloo@gmail.com, [website](http://richpauloo.com/)*
 
