@@ -7,7 +7,7 @@
 
 This site is proudly built with [R](https://www.r-project.org/) & [Jekyll](https://jekyllrb.com/) (theme by [jmcglone](https://github.com/jmcglone/jmcglone.github.io)), and hosted on [Github Pages](https://pages.github.com/).  
 
-© 2019 by [Rich Pauloo](https://richpauloo.github.io), under the [MIT License](https://github.com/caccr/caccr.github.io/blob/master/LICENSE).  
+© 2019 by [Rich Pauloo](https://www.richpauloo.com), under the [MIT License](https://github.com/caccr/caccr.github.io/blob/master/LICENSE).  
 
 [View the project](https://caccr.github.io).   
 
